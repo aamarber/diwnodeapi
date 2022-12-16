@@ -1,0 +1,18 @@
+{
+    "products" : [
+        {
+            "id": "554891",
+            "name": "Snickers",
+            "description": "Nike Air snickers, the best of the best",
+            "price": 145.76,
+            "image": ""
+        },
+        {
+            "id": "115894",
+            "name": "Swetashirt",
+            "description": "Supreme sweatshirt, unreasanably expensive",
+            "price": 489.99,
+            "image": ""
+        }
+    ]
+}

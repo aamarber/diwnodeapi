@@ -1,5 +1,5 @@
 const fs = require('fs');
-const User = require('../model/user');
+const User = require('../../model/user');
 
 class UsersDB {
     constructor(){
@@ -12,7 +12,7 @@ class UsersDB {
 
 }
 
-const readData = fs.readFileSync('./data/users.json', 'utf8');
+const readData = fs.readFileSync('./data/users/users.json', 'utf8');
 
 const jsonData = JSON.parse(readData);
 

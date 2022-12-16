@@ -13,8 +13,7 @@ module.exports = app;
 // LOGIC FROM HERE ON
 
 // importing user context
-const usersDB = require("./data/usersdb");
-
+const usersDB = require("./data/users/usersdb");
 
 app.post("/login", (req, res) => {
     try{
@@ -50,4 +49,16 @@ app.post("/login", (req, res) => {
     catch(error){
         console.error(error);
     }
+});
+
+const auth = require('./middleware/auth');
+
+app.post('/welcome', auth, (request, result) => {
+    result.status(200).send("Welcome logged in user!");
+})
+
+const productsDB = require("./data/products/productsdb");
+
+app.post('/products', auth, (request, result) => {
+    result.status(200).json(productsDB.products);
 });
