@@ -22,6 +22,4 @@ usersDB.users = jsonData.users.map(userData => {
     return new User(userData.email, userData.password);
 });
 
-console.log(usersDB);
-
 module.exports = usersDB;

@@ -2,6 +2,8 @@ require("dotenv").config();
 
 const express = require('express');
 
+const jwt = require("jsonwebtoken");
+
 const app = express();
 
 app.use(express.json());
@@ -30,7 +32,20 @@ app.post("/login", (req, res) => {
             return;
         }
 
-        res.status(200).send("Login success!");
+        // Create token
+        const token = jwt.sign(
+            { user_id: user._id, email },
+            process.env.TOKEN_KEY,
+            {
+              expiresIn: "2h",
+            }
+          );
+    
+          // save user token
+          user.token = token;
+    
+          // user
+          res.status(200).json(user.token);
     }
     catch(error){
         console.error(error);
