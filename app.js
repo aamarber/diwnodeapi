@@ -53,6 +53,10 @@ app.post("/login", (req, res) => {
 
 const auth = require('./middleware/auth');
 
+app.get('/welcome', (request, result) => {
+    result.status(200).send("Welcome not logged in user!");
+})
+
 app.post('/welcome', auth, (request, result) => {
     result.status(200).send("Welcome logged in user!");
 })
