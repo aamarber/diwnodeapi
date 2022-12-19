@@ -1,15 +1,14 @@
-# diwnodeapi
-#Previous Requirements
+# Previous Requirements
 
-##Node.js
+## Node.js
  You need node.js installed in your computer to run this API. Current LTS version is 18 and latest version available is 19, both work fine with the API:
  https://nodejs.org/en/
 
- ##NPM
+## NPM
  NPM must be installed on your machine because it's the package manager used to define the API dependencies:
  https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
 
-#Launch the API
+# Launch the API
 To run the api download the code.
 
 Run the next commands on the folder where the downloaded code is:
@@ -32,7 +31,7 @@ The port may be in use in your machine. If that's the case, change the variable 
 
 
 
-#Examples
+# Examples
 
 Example calls to the API
 
