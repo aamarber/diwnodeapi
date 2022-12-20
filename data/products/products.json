@@ -1,18 +1,156 @@
 {
     "products" : [
         {
+            "id": 1,
+            "name": "Toothbrush",
+            "description": "A manual toothbrush with soft bristles for gentle cleaning.",
+            "price": 3.99,
+            "small_image": "toothbrush-3191097_640.jpg",
+            "medium_image": "toothbrush-3191097_1280.jpg",
+            "big_image": "toothbrush-3191097_1920.jpg"
+          },
+          {
+            "id": 2,
+            "name": "Toothpaste",
+            "description": "A fluoride toothpaste for fresher breath and cleaner teeth.",
+            "price": 2.99,
+            "small_image": "toothpaste-1786388_640.jpg",
+            "medium_image": "toothpaste-1786388_1280.jpg",
+            "big_image": "toothpaste-1786388_1920.jpg"
+          },
+          {
+            "id": 3,
+            "name": "Mouthwash",
+            "description": "An antiseptic mouthwash to kill bacteria and freshen breath.",
+            "price": 4.99,
+            "small_image": "mouthwash-930617_640.jpg",
+            "medium_image": "mouthwash-930617_1280.jpg",
+            "big_image": "mouthwash-930617_1920.jpg"
+          },
+          {
+            "id": 4,
+            "name": "Floss",
+            "description": "Dental floss to remove plaque and food particles between teeth.",
+            "price": 1.99,
+            "small_image": "floss-668215_640.jpg",
+            "medium_image": "floss-668215_1280.jpg",
+            "big_image": "floss-668215_1920.jpg"            
+          },
+          {
+            "id": 5,
+            "name": "Laptop",
+            "description": "A portable computer with a touchscreen and WiFi capabilities.",
+            "price": 499.99,
+            "small_image": "laptop-3214756_640.png",
+            "medium_image": "laptop-3214756_1280.png",
+            "big_image": "laptop-3214756.png"
+          },
+          {
+            "id": 6,
+            "name": "Desktop Computer",
+            "description": "A desktop computer with a powerful processor and plenty of storage.",
+            "price": 799.99,
+            "small_image": "computer-158675_640.png",
+            "medium_image": "computer-158675_1280.png",
+            "big_image": "computer-158675.png"
+          },
+          {
+            "id": 7,
+            "name": "Monitor",
+            "description": "A computer monitor with a high refresh rate and 1080p resolution.",
+            "price": 199.99,
+            "small_image": "monitor-155159_640.png",
+            "medium_image": "monitor-155159_1280.png",
+            "big_image": "monitor-155159.png"
+          },
+          {
+            "id": 8,
+            "name": "Keyboard",
+            "description": "A wireless keyboard with a sleek design and backlit keys.",
+            "price": 49.99,
+            "small_image": "keyboard-1293389_640.png",
+            "medium_image": "keyboard-1293389_1280.png",
+            "big_image": "keyboard-1293389.png"
+          },
+          {
+            "id": 9,
+            "name": "Mouse",
+            "description": "A wireless mouse with a comfortable grip and precision tracking.",
+            "price": 29.99,
+            "small_image": "helical-1294937_640.png",
+            "medium_image": "helical-1294937_1280.png",
+            "big_image": "helical-1294937.png"
+          },
+          {
+            "id": 10,
+            "name": "Phone Case",
+            "description": "A protective phone case for an iPhone with a sleek design and shock-absorbing material.",
+            "price": 19.99,
+            "small_image": "mobile-2562332_640.jpg",
+            "medium_image": "mobile-2562332_1280.jpg",
+            "big_image": "mobile-2562332_1920.jpg"
+          },
+          {
+            "id": 11,
+            "name": "Headphones",
+            "description": "Wireless headphones with noise cancelling technology and a comfortable fit.",
+            "price": 99.99,
+            "small_image": "headphone-159569_640.png",
+            "medium_image": "headphone-159569_1280.png",
+            "big_image": "headphone-159569.png"
+          },
+          {
+            "id": 12,
+            "name": "Speakers",
+            "description": "Wireless speakers with a compact design and powerful sound.",
+            "price": 79.99,
+            "small_image": "radio-cassette-3634616_640.png",
+            "medium_image": "radio-cassette-3634616_1280.png",
+            "big_image": "radio-cassette-3634616.png"
+          },
+          {
+            "id": 13,
+            "name": "TV",
+            "description": "A 4K TV with a large display and smart features for streaming content.",
+            "price": 499.99,
+            "small_image": "test-pattern-152459_640.png",
+            "medium_image": "test-pattern-152459_1280.png",
+            "big_image": "test-pattern-152459.png"
+          },
+          {
+            "id": 14,
+            "name": "Bluetooth Adapter",
+            "description": "A Bluetooth adapter to add wireless connectivity to devices without built-in Bluetooth.",
+            "price": 24.99,
+            "small_image": "bluetooth-5306027_640.png",
+            "medium_image": "bluetooth-5306027_1280.png",
+            "big_image": "bluetooth-5306027.png"
+          },
+        {
             "id": "554891",
             "name": "Snickers",
             "description": "Nike Air snickers, the best of the best",
             "price": 145.76,
-            "image": "https://cdn.pixabay.com/photo/2015/05/31/15/01/shoes-792074_960_720.jpg"
+            "small_image": "nike-5126389_640.jpg",
+            "medium_image": "nike-5126389_1280.jpg",
+            "big_image": "nike-5126389_1920.jpg"
+        },{
+            "id": "226584",
+            "name": "Socks",
+            "description": "Super cheap socks, a pair",
+            "price": 0.006,
+            "small_image": "socks-1157528_640.jpg",
+            "medium_image": "socks-1157528_1280.jpg",
+            "big_image": "socks-1157528_1920.jpg"
         },
         {
             "id": "115894",
             "name": "Swetashirt",
             "description": "Supreme sweatshirt, unreasonably expensive",
             "price": 489.99,
-            "image": "https://cdn.pixabay.com/photo/2014/10/23/10/10/dollars-499481_960_720.jpg"
+            "small_image": "Supreme_Logo_640.png",
+            "medium_image": "Supreme_Logo_1280.png",
+            "big_image": "Supreme_Logo_2560.png"
         }
     ]
 }

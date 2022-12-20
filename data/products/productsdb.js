@@ -7,7 +7,7 @@ class ProductsDB {
     }
 
     find(id){
-        return this?.products.find(product => product.id === id);
+        return this?.products.find(product => product.id == id);
     }
 
 }
@@ -18,16 +18,33 @@ const jsonData = JSON.parse(readData);
 
 let productsDB = new ProductsDB();
 
-productsDB.products = jsonData.products.map(productData => {
+function shuffleArray(array) {
+    let currentIndex = array.length,  randomIndex;
+  
+    // While there remain elements to shuffle.
+    while (currentIndex != 0) {
+  
+      // Pick a remaining element.
+      randomIndex = Math.floor(Math.random() * currentIndex);
+      currentIndex--;
+  
+      // And swap it with the current element.
+      [array[currentIndex], array[randomIndex]] = [
+        array[randomIndex], array[currentIndex]];
+    }
+  
+    return array;
+  }
+
+productsDB.products = shuffleArray(jsonData.products
+.map(productData => {
     let product = new Product();
 
-    product.id = productData.id;
-    product.name = productData.name;
-    product.description = productData.description;
-    product.price = productData.price;
-    product.image = productData.image;
+    product = {...productData};
 
     return product;
-});
+}));
+
+
 
 module.exports = productsDB;

@@ -16,14 +16,15 @@ require('./controllers/loginController');
 
 require('./controllers/productsController');
 
-// LOGIC FROM HERE ON
+app.use(express.static('public'))
 
 const auth = require('./middleware/auth');
 
 app.get('/welcome', (request, result) => {
     result.status(200).send("Welcome not logged in user!");
-})
+});
 
 app.post('/welcome', auth, (request, result) => {
     result.status(200).send("Welcome logged in user!");
-})
+});
+
