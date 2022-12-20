@@ -6,7 +6,11 @@ const jwt = require("jsonwebtoken");
 
 const app = express();
 
+const cors = require('cors')
+
 app.use(express.json());
+
+app.use(cors());
 
 module.exports = app;
 
