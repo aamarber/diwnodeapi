@@ -5,14 +5,14 @@
             "name": "Snickers",
             "description": "Nike Air snickers, the best of the best",
             "price": 145.76,
-            "image": ""
+            "image": "https://cdn.pixabay.com/photo/2015/05/31/15/01/shoes-792074_960_720.jpg"
         },
         {
             "id": "115894",
             "name": "Swetashirt",
             "description": "Supreme sweatshirt, unreasanably expensive",
             "price": 489.99,
-            "image": ""
+            "image": "https://cdn.pixabay.com/photo/2014/10/23/10/10/dollars-499481_960_720.jpg"
         }
     ]
 }

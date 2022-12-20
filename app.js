@@ -72,8 +72,6 @@ app.post('/products', auth, (request, result) => {
 });
 
 app.post('/products/:id?', auth, (request, result) => {
-    console.log('HOLA');
-
     const productId = request.params.id;
 
     if(!productId){

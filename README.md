@@ -23,7 +23,7 @@ npm run start
 
 The API runs by default at the port 9988. Test that it works by getting into the URL:
 
-http://localhost:9989/welcome
+http://localhost:9988/welcome
 
 You should see a message saying "Welcome not logged in user!".
 
